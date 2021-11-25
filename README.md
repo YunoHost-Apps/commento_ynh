@@ -32,7 +32,7 @@ Commento allows you to foster discussion on your website – if you have a blog,
 
 ## Screenshots
 
-![](./doc/screenshots/example.jpg)
+![](./doc/screenshots/Screenshot.png)
 
 ## Disclaimers / important information
 
