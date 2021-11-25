@@ -28,7 +28,7 @@ Commento allows you to foster discussion on your website – if you have a blog,
 
 ## Captures d'écran
 
-![](./doc/screenshots/example.jpg)
+![](./doc/screenshots/Screenshot.png)
 
 ## Avertissements / informations importantes
 
