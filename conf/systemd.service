@@ -1,0 +1,16 @@
+[Unit]
+Description=Commento daemon service
+After=network.target postgresql.service
+
+[Service]
+Type=simple
+User=__APP__
+Group=__APP__
+ExecStart=__FINALPATH__/commento
+Environment=COMMENTO_ORIGIN=https://__DOMAIN__
+Environment=COMMENTO_PORT=__PORT__
+Environment=COMMENTO_POSTGRES=postgres://__DB_USER__:__DB_PWD__@127.0.0.1:5432/__DB_NAME__?sslmode=disable
+Environment=COMMENTO_STATIC=__FINALPATH__
+
+[Install]
+WantedBy=multi-user.target

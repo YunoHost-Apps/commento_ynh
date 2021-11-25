@@ -1,0 +1,5 @@
+SOURCE_URL=https://dl.commento.io/release/commento-v1.8.0-linux-glibc-amd64.tar.gz
+SOURCE_SUM=ba775550096f2d3f8e74de28bd1ed5c5c8c8340ba89882b54571f4064d5808c9
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=false
