@@ -6,11 +6,8 @@ After=network.target postgresql.service
 Type=simple
 User=__APP__
 Group=__APP__
+Environment=COMMENTO_CONFIG_FILE=__FINALPATH__/commento.env
 ExecStart=__FINALPATH__/commento
-Environment=COMMENTO_ORIGIN=https://__DOMAIN__
-Environment=COMMENTO_PORT=__PORT__
-Environment=COMMENTO_POSTGRES=postgres://__DB_USER__:__DB_PWD__@127.0.0.1:5432/__DB_NAME__?sslmode=disable
-Environment=COMMENTO_STATIC=__FINALPATH__
 
 [Install]
 WantedBy=multi-user.target

@@ -106,15 +106,15 @@ ynh_script_progression --message="Configuring NGINX web server..." --weight=1
 # Create a dedicated NGINX config
 ynh_add_nginx_config
 
-# #=================================================
-# # ADD A CONFIGURATION
-# #=================================================
-# ynh_script_progression --message="Adding a configuration file..." --weight=1
+#=================================================
+# ADD A CONFIGURATION
+#=================================================
+ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-# ynh_add_config --template="../conf/.env" --destination="$final_path/.env"
+ynh_add_config --template="../conf/.env" --destination="$final_path/commento.env"
 
-# chmod 400 "$final_path/.env"
-# chown $app:$app "$final_path/.env"
+chmod 400 "$final_path/commento.env"
+chown $app:$app "$final_path/commento.env"
 
 #=================================================
 # SETUP SYSTEMD
