@@ -1,30 +1,34 @@
-# Example app pour YunoHost
+# Commento pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/example.svg)](https://dash.yunohost.org/appci/app/example) ![](https://ci-apps.yunohost.org/ci/badges/example.status.svg)  ![](https://ci-apps.yunohost.org/ci/badges/example.maintain.svg)
-[![Installer example avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=example)
+[![Niveau d'intégration](https://dash.yunohost.org/integration/commento.svg)](https://dash.yunohost.org/appci/app/commento) ![](https://ci-apps.yunohost.org/ci/badges/commento.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/commento.maintain.svg)  
+[![Installer Commento avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=commento)
 
 *[Read this readme in english.](./README.md)*
 *[Lire ce readme en français.](./README_fr.md)*
 
-> *This package allows you to install example quickly and simply on a YunoHost server.
-If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
+> *Ce package vous permet d'installer Commento rapidement et simplement sur un serveur YunoHost.
+Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
 
 ## Vue d'ensemble
 
-Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)
+Commento allows you to foster discussion on your website – if you have a blog, you can embed Commento if you want your readers to add comments. It's fast and bloat-free, has a modern interface, and is reasonably secure. Unlike most alternatives, Commento is lightweight and privacy-focused; I'll never sell your data, show ads, embed third-party tracking scripts, or inject affiliate links.
 
-**Version incluse:** 1.0~ynh1
+### Features
 
-**Démo:** https://demo.example.com
+- Ut enim ad minim veniam, quis nostrud exercitation ullamco ;
+- Laboris nisi ut aliquip ex ea commodo consequat ;
+- Duis aute irure dolor in reprehenderit in voluptate ;
+- Velit esse cillum dolore eu fugiat nulla pariatur ;
+- Excepteur sint occaecat cupidatat non proident, sunt in culpa."
 
+
+**Version incluse :** 1.8.0~ynh1
+
+**Démo :** https://demo.commento.io/
 
 ## Captures d'écran
 
-
-   ![](./doc/screenshots/example.jpg)
-
-
-
+![](./doc/screenshots/example.jpg)
 
 ## Avertissements / informations importantes
 
@@ -41,26 +45,23 @@ Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'o
     * upgrade process / specificities / things to be aware of ?
     * security considerations ?
 
-
-
 ## Documentations et ressources
 
-* Site official de l'app : https://example.com
-* Documentation officielle utilisateur: https://yunohost.org/apps
-* Documentation officielle de l'admin: https://yunohost.org/packaging_apps
-* Dépôt de code officiel de l'app:  https://some.forge.com/example/example
-* Documentation YunoHost pour cette app: https://yunohost.org/app_example
-* Signaler un bug: https://github.com/YunoHost-Apps/example_ynh/issues
+* Site officiel de l'app : https://commento.io/
+* Documentation officielle de l'admin : https://docs.commento.io/
+* Dépôt de code officiel de l'app : https://gitlab.com/commento/commento
+* Documentation YunoHost pour cette app : https://yunohost.org/app_commento
+* Signaler un bug : https://github.com/YunoHost-Apps/commento_ynh/issues
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/example_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/commento_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/example_ynh/tree/testing --debug
-or
-sudo yunohost app upgrade example -u https://github.com/YunoHost-Apps/example_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/commento_ynh/tree/testing --debug
+ou
+sudo yunohost app upgrade commento -u https://github.com/YunoHost-Apps/commento_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications:** https://yunohost.org/packaging_apps
+**Plus d'infos sur le packaging d'applications :** https://yunohost.org/packaging_apps
