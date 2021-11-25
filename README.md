@@ -19,11 +19,13 @@ Commento allows you to foster discussion on your website – if you have a blog,
 
 ### Features
 
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco ;
-- Laboris nisi ut aliquip ex ea commodo consequat ;
-- Duis aute irure dolor in reprehenderit in voluptate ;
-- Velit esse cillum dolore eu fugiat nulla pariatur ;
-- Excepteur sint occaecat cupidatat non proident, sunt in culpa."
+- Moderation tools
+- Markdown formatting
+- Nested replies
+- No sign-up required
+- Spam detection
+- Sticky comments
+- Upvotes and downvotes
 
 
 **Shipped version:** 1.8.0~ynh1
