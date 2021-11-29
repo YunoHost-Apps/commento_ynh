@@ -28,7 +28,7 @@ Commento allows you to foster discussion on your website – if you have a blog,
 - Upvotes and downvotes
 
 
-**Shipped version:** 1.8.0~ynh2
+**Shipped version:** 1.8.5~ynh5
 
 **Demo:** https://demo.commento.io/
 
@@ -40,7 +40,7 @@ Commento allows you to foster discussion on your website – if you have a blog,
 
 * Official app website: https://commento.io/
 * Official admin documentation: https://docs.commento.io/
-* Upstream app code repository: https://gitlab.com/commento/commento
+* Upstream app code repository: https://github.com/souramoo/commentoplusplus
 * YunoHost documentation for this app: https://yunohost.org/app_commento
 * Report a bug: https://github.com/YunoHost-Apps/commento_ynh/issues
 
