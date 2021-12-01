@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/souramoo/commentoplusplus/releases/download/v1.8.5/release-1.8.5.tar.gz
-SOURCE_SUM=63d3b0c08163c4c0a5cd587377b06095ed693b947acb1bd15c6658fc11b9310a
+SOURCE_URL=https://github.com/souramoo/commentoplusplus/releases/download/v1.8.6/release_1.8.6.tar.gz
+SOURCE_SUM=a7e01c4fd6a94e938526b9ea62e6813c05651fd1a1f3b08eefb010144a9b4848
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=false
