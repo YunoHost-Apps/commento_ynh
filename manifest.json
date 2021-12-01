@@ -6,12 +6,12 @@
         "en": "Fast, privacy-focused commenting platform",
         "fr": "Plateforme de commentaires rapide axée sur la confidentialité"
     },
-    "version": "1.8.5~ynh5",
+    "version": "1.8.6~ynh1",
     "url": "https://commento.io/",
     "upstream": {
         "license": "MIT",
         "website": "https://commento.io/",
-        "demo": "https://demo.commento.io/",
+        "demo": "https://demo.souradip.com/chat.html",
         "admindoc": "https://docs.commento.io/",
         "code": "https://github.com/souramoo/commentoplusplus"
     },
