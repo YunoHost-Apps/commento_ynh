@@ -26,7 +26,7 @@ Commento allows you to foster discussion on your website – if you have a blog,
 
 **Version incluse :** 1.8.6~ynh1
 
-**Démo :** https://demo.commento.io/
+**Démo :** https://demo.souradip.com/chat.html
 
 ## Captures d'écran
 

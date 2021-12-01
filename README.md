@@ -30,7 +30,7 @@ Commento allows you to foster discussion on your website – if you have a blog,
 
 **Shipped version:** 1.8.6~ynh1
 
-**Demo:** https://demo.commento.io/
+**Demo:** https://demo.souradip.com/chat.html
 
 ## Screenshots
 
