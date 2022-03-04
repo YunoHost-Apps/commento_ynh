@@ -24,7 +24,7 @@ Commento allows you to foster discussion on your website – if you have a blog,
 - Upvotes and downvotes
 
 
-**Version incluse :** 1.8.0~ynh2
+**Version incluse :** 1.8.0~ynh3
 
 **Démo :** https://demo.commento.io/
 
