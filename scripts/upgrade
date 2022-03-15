@@ -25,6 +25,8 @@ db_user=$db_name
 db_pwd=$(ynh_app_setting_get --app=$app --key=psqlpwd)
 port=$(ynh_app_setting_get --app=$app --key=port)
 
+enable_registrations=$(ynh_app_setting_get --app=$app --key=enable_registrations)
+
 #=================================================
 # CHECK VERSION
 #=================================================
@@ -58,6 +60,11 @@ ynh_systemd_action --service_name=$app --action="stop" --log_path="/var/log/$app
 # ENSURE DOWNWARD COMPATIBILITY
 #=================================================
 ynh_script_progression --message="Ensuring downward compatibility..." --weight=1
+
+if [ -z "$enable_registrations" ]; then
+	enable_registrations="false"
+	ynh_app_setting_set --app=$app --key=enable_registrations --value=$enable_registrations
+fi
 
 # Cleaning legacy permissions
 if ynh_legacy_permissions_exists; then
