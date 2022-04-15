@@ -90,7 +90,7 @@ then
 	ynh_script_progression --message="Upgrading source files..." --weight=1
 
 	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$final_path" --keep="$final_path/commento.env"
+	ynh_setup_source --dest_dir="$final_path" #--keep="$final_path/commento.env"
 fi
 
 chmod 750 "$final_path"
@@ -112,15 +112,15 @@ ynh_script_progression --message="Upgrading dependencies..." --weight=1
 
 ynh_exec_warn_less ynh_install_app_dependencies $pkg_dependencies
 
-# #=================================================
-# # UPDATE A CONFIG FILE
-# #=================================================
-# ynh_script_progression --message="Updating a configuration file..." --weight=1
+#=================================================
+# UPDATE A CONFIG FILE
+#=================================================
+ynh_script_progression --message="Updating a configuration file..." --weight=1
 
-# ynh_add_config --template="../conf/.env" --destination="$final_path/commento.env"
+ynh_add_config --template="../conf/.env" --destination="$final_path/commento.env"
 
-# chmod 400 "$final_path/commento.env"
-# chown $app:$app "$final_path/commento.env"
+chmod 400 "$final_path/commento.env"
+chown $app:$app "$final_path/commento.env"
 
 #=================================================
 # SETUP SYSTEMD
