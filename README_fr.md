@@ -11,22 +11,25 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Commento allows you to foster discussion on your website – if you have a blog, you can embed Commento if you want your readers to add comments. It's fast and bloat-free, has a modern interface, and is reasonably secure. Unlike most alternatives, Commento is lightweight and privacy-focused.
+Commento++ allows you to foster discussion on your website – if you have a blog, you can embed Commento if you want your readers to add comments. It's fast and bloat-free, has a modern interface, and is reasonably secure. Unlike most alternatives, Commento is lightweight and privacy-focused.
 
 ### Features
 
+- Markdown support
+- Import from Disqus
+- Voting
+- Automated spam detection (Askimet integration)
 - Moderation tools
-- Markdown formatting
-- Nested replies
-- No sign-up required
-- Spam detection
 - Sticky comments
-- Upvotes and downvotes
+- Thread locking
+- OAuth login (Google, Github, Twitter) and single sign-on
+- Hot-reloading of comments
+- Email notifications.
 
 
-**Version incluse :** 1.8.0~ynh3
+**Version incluse :** 1.8.7~ynh1
 
-**Démo :** https://demo.commento.io/
+**Démo :** https://demo.souradip.com/chat.html
 
 ## Captures d'écran
 
@@ -36,7 +39,7 @@ Commento allows you to foster discussion on your website – if you have a blog,
 
 * Site officiel de l'app : https://commento.io/
 * Documentation officielle de l'admin : https://docs.commento.io/
-* Dépôt de code officiel de l'app : https://gitlab.com/commento/commento
+* Dépôt de code officiel de l'app : https://github.com/souramoo/commentoplusplus
 * Documentation YunoHost pour cette app : https://yunohost.org/app_commento
 * Signaler un bug : https://github.com/YunoHost-Apps/commento_ynh/issues
 

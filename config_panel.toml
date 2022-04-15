@@ -1,0 +1,16 @@
+version = "1.0"
+
+[main]
+name = "Commento configuration"
+services = ["__APP__"]
+
+    [main.config]
+    name = "Configuration Options"
+
+        [main.config.enable_registrations]
+        ask = "Enable registrations"
+        type = "boolean"
+        yes = "true"
+        no = "false"
+        help = "Used to disable new dashboard registrations. Useful if you are the only person using Commento on your server. Does not impact the creation of accounts for your readers."
+        bind = "COMMENTO_FORBID_NEW_OWNERS:__FINALPATH__/commento.env"
