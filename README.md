@@ -33,7 +33,6 @@ Commento++ allows you to foster discussion on your website – if you have a blo
 
 **Shipped version:** 1.8.7~ynh1
 
-
 **Demo:** https://demo.souradip.com/chat.html
 
 ## Screenshots
