@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Commento for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/commento.svg)](https://dash.yunohost.org/appci/app/commento) ![](https://ci-apps.yunohost.org/ci/badges/commento.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/commento.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/commento.svg)](https://dash.yunohost.org/appci/app/commento) ![Working status](https://ci-apps.yunohost.org/ci/badges/commento.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/commento.maintain.svg)  
 [![Install Commento with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=commento)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -37,25 +37,26 @@ Commento++ allows you to foster discussion on your website – if you have a blo
 
 ## Screenshots
 
-![](./doc/screenshots/Screenshot.png)
+![Screenshot of Commento](./doc/screenshots/Screenshot.png)
 
 ## Documentation and resources
 
-* Official app website: https://commento.io/
-* Official admin documentation: https://docs.commento.io/
-* Upstream app code repository: https://github.com/souramoo/commentoplusplus
-* YunoHost documentation for this app: https://yunohost.org/app_commento
-* Report a bug: https://github.com/YunoHost-Apps/commento_ynh/issues
+* Official app website: <https://commento.io/>
+* Official admin documentation: <https://docs.commento.io/>
+* Upstream app code repository: <https://github.com/souramoo/commentoplusplus>
+* YunoHost documentation for this app: <https://yunohost.org/app_commento>
+* Report a bug: <https://github.com/YunoHost-Apps/commento_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/commento_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/commento_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade commento -u https://github.com/YunoHost-Apps/commento_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
