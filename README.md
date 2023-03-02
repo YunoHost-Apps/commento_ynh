@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Commento for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/commento.svg)](https://dash.yunohost.org/appci/app/commento) ![Working status](https://ci-apps.yunohost.org/ci/badges/commento.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/commento.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/commento.svg)](https://dash.yunohost.org/appci/app/commento) ![Working status](https://ci-apps.yunohost.org/ci/badges/commento.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/commento.maintain.svg)
+
 [![Install Commento with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=commento)
 
 *[Lire ce readme en français.](./README_fr.md)*
