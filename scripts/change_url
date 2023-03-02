@@ -31,10 +31,10 @@ ynh_change_url_nginx_config
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
 domain="$new_domain"
-ynh_add_config --template="../conf/.env" --destination="$final_path/commento.env"
+ynh_add_config --template="../conf/.env" --destination="$install_dir/commento.env"
 
-chmod 400 "$final_path/commento.env"
-chown $app:$app "$final_path/commento.env"
+chmod 400 "$install_dir/commento.env"
+chown $app:$app "$install_dir/commento.env"
 
 #=================================================
 # GENERIC FINALISATION

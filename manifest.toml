@@ -5,7 +5,7 @@ name = "Commento"
 description.en = "Fast, privacy-focused commenting platform"
 description.fr = "Plateforme de commentaires rapide axée sur la confidentialité"
 
-version = "1.8.7~ynh1"
+version = "1.8.7~ynh2"
 
 maintainers = ["eric_G"]
 
@@ -34,8 +34,8 @@ ram.runtime = "50M"
     type = "user"
 
     [install.init_main_permission]
-    help.en = "If enabled, Commento will be accessible by people who do not have an account. This can be changed later via the webadmin."
-    help.fr = "Si cette case est cochée, Commento sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+    help.en = "visitors selected, Commento will be accessible by people who do not have an account. This can be changed later via the webadmin."
+    help.fr = "visiteurs selectionné, Commento sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
     type = "group"
     default = "visitors"
 
