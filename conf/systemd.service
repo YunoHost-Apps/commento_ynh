@@ -6,8 +6,8 @@ After=network.target postgresql.service
 Type=simple
 User=__APP__
 Group=__APP__
-Environment=COMMENTO_CONFIG_FILE=__FINALPATH__/commento.env
-ExecStart=__FINALPATH__/commento
+Environment=COMMENTO_CONFIG_FILE=__INSTALL_DIR__/commento.env
+ExecStart=__INSTALL_DIR__/commento
 
 # Sandboxing options to harden security
 # Depending on specificities of your service/app, you may need to tweak these

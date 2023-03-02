@@ -1,0 +1,60 @@
+packaging_format = 2
+
+id = "commento"
+name = "Commento"
+description.en = "Fast, privacy-focused commenting platform"
+description.fr = "Plateforme de commentaires rapide axée sur la confidentialité"
+
+version = "1.8.7~ynh2"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "MIT"
+website = "https://commento.io/"
+demo = "https://demo.souradip.com/chat.html"
+admindoc = "https://docs.commento.io/"
+code = "https://github.com/souramoo/commentoplusplus"
+
+[integration]
+yunohost = ">= 11.1.12"
+architectures = ["amd64"]
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "150M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+    full_domain = true
+
+    [install.admin]
+    type = "user"
+
+    [install.init_main_permission]
+    help.en = "visitors selected, Commento will be accessible by people who do not have an account. This can be changed later via the webadmin."
+    help.fr = "visiteurs selectionné, Commento sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+    type = "group"
+    default = "visitors"
+
+    [install.password]
+    type = "password"
+
+[resources]
+    [resources.ports]
+    
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "postgresql"
+
+    [resources.database]
+    type = "postgresql"
