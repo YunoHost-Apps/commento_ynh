@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # Commento pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/commento.svg)](https://dash.yunohost.org/appci/app/commento) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/commento.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/commento.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/commento.svg)](https://dash.yunohost.org/appci/app/commento) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/commento.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/commento.maintain.svg)
+
 [![Installer Commento avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=commento)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Commento rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Commento rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Commento++ allows you to foster discussion on your website – if you have a blog, you can embed Commento if you want your readers to add comments. It's fast and bloat-free, has a modern interface, and is reasonably secure. Unlike most alternatives, Commento is lightweight and privacy-focused.
 
@@ -35,15 +36,15 @@ Commento++ allows you to foster discussion on your website – if you have a blo
 
 **Démo :** https://demo.souradip.com/chat.html
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Commento](./doc/screenshots/Screenshot.png)
+![Capture d’écran de Commento](./doc/screenshots/Screenshot.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://commento.io/>
-* Documentation officielle de l'admin : <https://docs.commento.io/>
-* Dépôt de code officiel de l'app : <https://github.com/souramoo/commentoplusplus>
+* Site officiel de l’app : <https://commento.io/>
+* Documentation officielle de l’admin : <https://docs.commento.io/>
+* Dépôt de code officiel de l’app : <https://github.com/souramoo/commentoplusplus>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_commento>
 * Signaler un bug : <https://github.com/YunoHost-Apps/commento_ynh/issues>
 
@@ -59,4 +60,4 @@ ou
 sudo yunohost app upgrade commento -u https://github.com/YunoHost-Apps/commento_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
