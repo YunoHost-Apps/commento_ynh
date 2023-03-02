@@ -13,4 +13,4 @@ services = ["__APP__"]
         yes = "true"
         no = "false"
         help = "Used to disable new dashboard registrations. Useful if you are the only person using Commento on your server. Does not impact the creation of accounts for your readers."
-        bind = "COMMENTO_FORBID_NEW_OWNERS:__FINALPATH__/commento.env"
+        bind = "COMMENTO_FORBID_NEW_OWNERS:__INSTALL_DIR__/commento.env"
