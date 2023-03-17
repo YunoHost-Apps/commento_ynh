@@ -9,6 +9,5 @@ Commento++ allows you to foster discussion on your website – if you have a blo
 - Moderation tools
 - Sticky comments
 - Thread locking
-- OAuth login (Google, Github, Twitter) and single sign-on
 - Hot-reloading of comments
 - Email notifications.
