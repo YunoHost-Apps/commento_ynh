@@ -17,7 +17,7 @@ admindoc = "https://docs.commento.io/"
 code = "https://github.com/souramoo/commentoplusplus"
 
 [integration]
-yunohost = ">= 11.1.17"
+yunohost = ">= 11.1.19"
 architectures = ["amd64"]
 multi_instance = true
 ldap = false
