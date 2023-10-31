@@ -44,7 +44,7 @@ Commento++ allows you to foster discussion on your website – if you have a blo
 * Official app website: <https://commento.io/>
 * Official admin documentation: <https://docs.commento.io/>
 * Upstream app code repository: <https://github.com/souramoo/commentoplusplus>
-* YunoHost documentation for this app: <https://yunohost.org/app_commento>
+* YunoHost Store: <https://apps.yunohost.org/app/commento>
 * Report a bug: <https://github.com/YunoHost-Apps/commento_ynh/issues>
 
 ## Developer info
