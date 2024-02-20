@@ -14,11 +14,6 @@ source /usr/share/yunohost/helpers
 #=================================================
 
 enable_registrations="false"
-
-#=================================================
-# STORE SETTINGS FROM MANIFEST
-#=================================================
-
 ynh_app_setting_set --app=$app --key=enable_registrations --value=$enable_registrations
 
 #=================================================

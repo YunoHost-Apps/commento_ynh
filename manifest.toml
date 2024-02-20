@@ -17,7 +17,7 @@ admindoc = "https://docs.commento.io/"
 code = "https://github.com/souramoo/commentoplusplus"
 
 [integration]
-yunohost = ">= 11.1.15"
+yunohost = ">= 11.2"
 architectures = ["amd64"]
 multi_instance = true
 ldap = false
@@ -29,7 +29,6 @@ ram.runtime = "50M"
 [install]
     [install.domain]
     type = "domain"
-    full_domain = true
 
     [install.admin]
     type = "user"
@@ -50,6 +49,7 @@ ram.runtime = "50M"
         url = "https://github.com/souramoo/commentoplusplus/releases/download/v1.8.7/release.tar.gz"
         sha256 = "a9925f34b3c035571b14b0d2f351129d70b9d589b9832fcb09f7f0d56d6d92a1"
         in_subdir = false
+        autoupdate.strategy = "latest_github_tag"
 
     [resources.ports]
     
