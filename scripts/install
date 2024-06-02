@@ -45,7 +45,7 @@ yunohost service add $app --description="Privacy-focused commenting platform" --
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-ynh_add_config --template="../conf/.env" --destination="$install_dir/commento.env"
+ynh_add_config --template=".env" --destination="$install_dir/commento.env"
 
 chmod 400 "$install_dir/commento.env"
 chown $app:$app "$install_dir/commento.env"
