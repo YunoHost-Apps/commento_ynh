@@ -5,7 +5,7 @@ name = "Commento"
 description.en = "Fast, privacy-focused commenting platform"
 description.fr = "Plateforme de commentaires rapide axée sur la confidentialité"
 
-version = "1.8.7~ynh2"
+version = "1.8.7~ynh3"
 
 maintainers = []
 
