@@ -16,20 +16,18 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Commento++ allows you to foster discussion on your website – if you have a blog, you can embed Commento if you want your readers to add comments. It's fast and bloat-free, has a modern interface, and is reasonably secure. Unlike most alternatives, Commento is lightweight and privacy-focused.
+Commento++ vous permet de favoriser la discussion sur votre site Web – si vous avez un blog, vous pouvez intégrer Commento si vous souhaitez que vos lecteurs ajoutent des commentaires. Il possède une interface moderne et sécurisé. Contrairement à la plupart des alternatives, Commento est léger et axé sur la confidentialité.
 
-### Features
+### Caractéristiques
 
-- Markdown support
-- Import from Disqus
-- Voting
-- Automated spam detection (Askimet integration)
-- Moderation tools
-- Sticky comments
-- Thread locking
-- Hot-reloading of comments
-- Email notifications.
-
+- Prise en charge des démarques
+- Importer depuis Disqus
+- Vote
+- Détection automatisée du spam (intégration Askimet)
+- Outils de modération
+- Commentaires
+- Rechargement à chaud des commentaires
+- Notifications par e-mail.
 
 **Version incluse :** 1.8.7~ynh2
 
