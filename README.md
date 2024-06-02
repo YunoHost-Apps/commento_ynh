@@ -31,7 +31,7 @@ Commento++ allows you to foster discussion on your website – if you have a blo
 - Email notifications.
 
 
-**Shipped version:** 1.8.7~ynh2
+**Shipped version:** 1.8.7~ynh3
 
 **Demo:** <https://demo.souradip.com/chat.html>
 

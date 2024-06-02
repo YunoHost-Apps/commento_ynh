@@ -29,7 +29,7 @@ Commento++ vous permet de favoriser la discussion sur votre site Web – si vous
 - Rechargement à chaud des commentaires
 - Notifications par e-mail.
 
-**Version incluse :** 1.8.7~ynh2
+**Version incluse :** 1.8.7~ynh3
 
 **Démo :** <https://demo.souradip.com/chat.html>
 
