@@ -5,9 +5,9 @@ name = "Commento"
 description.en = "Fast, privacy-focused commenting platform"
 description.fr = "Plateforme de commentaires rapide axée sur la confidentialité"
 
-version = "1.8.7~ynh2"
+version = "1.8.7~ynh3"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "MIT"
@@ -20,8 +20,11 @@ code = "https://github.com/souramoo/commentoplusplus"
 yunohost = ">= 11.2"
 architectures = ["amd64"]
 multi_instance = true
+
 ldap = false
+
 sso = false
+
 disk = "50M"
 ram.build = "150M"
 ram.runtime = "50M"
