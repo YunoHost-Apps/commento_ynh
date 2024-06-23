@@ -39,7 +39,7 @@ Commento++ allows you to foster discussion on your website – if you have a blo
 
 ![Captura de Commento](./doc/screenshots/Screenshot.png)
 
-## :red_circle: funcionalidades no deseadas
+## :red_circle: Características no deseables
 
 - **Upstream not maintained**: This software is not maintained anymore. Expect it to break down over time, be exposed to unfixed security breaches, etc.
 
